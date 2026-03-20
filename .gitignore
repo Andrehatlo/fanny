@@ -1,0 +1,93 @@
+# ─── Secrets & environment ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+vendor/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+target/          # Rust / Maven
+.gradle/
+
+# ─── Build output ─────────────────────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.svelte-kit/
+*.egg-info/
+*.egg
+*.whl
+*.so
+*.dylib
+
+# ─── Test & coverage ──────────────────────────────────────────────────────────
+coverage/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.nyc_output/
+*.lcov
+
+# ─── Caches ───────────────────────────────────────────────────────────────────
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# ─── OS ───────────────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Desktop.ini
+
+# ─── IDE & editors ────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Temporary files ──────────────────────────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ─── Docker ───────────────────────────────────────────────────────────────────
+# (docker-compose.yml is committed; local overrides are not)
+docker-compose.override.yml
